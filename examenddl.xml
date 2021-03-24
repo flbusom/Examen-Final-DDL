@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://www.w3schools.com"
-xmlns="https://www.w3schools.com"
-elementFormDefault="qualified">
+xmlns="https://www.w3schools.com" elementFormDefault="qualified">
 
 
-<xs:element name="CriterioValoracion">
-    <xs:complexType>
-        <xs:sequence>
-            <xs:element name="Id_aspirante" type="xs:integer"/>
-        </xs:sequence>
-    </xs:complexType>
-    </xs:element>
+            <xs:element name="CriterioValoracion">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Id_aspirante" type="xs:integer"/>
+                        </xs:sequence>
+                    </xs:complexType>
+            </xs:element>
 
 
-    <xs:element name="aspirante">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="Id_aspirante" type="xs:integer"/>
-                <xs:element name="Nombres" type="xs:string"/>
-                <xs:element name="Apellidos" type="xs:string"/>
-                <xs:element name="DNI" type="xs:string"/>
-                <xs:element name="Telefono" type="xs:string"/>
-                <xs:element name="Direccion" type="xs:string"/>
-                <xs:element name="Fecha_nacimiento" type="xs:string"/>
-                <xs:element name="Dan" type="xs:string"/>
-                <xs:element name="Cinturon" type="xs:string"/>
-                <xs:element name="Fecha_Ingreso_Dan" type="xs:string"/>
-                <xs:element name="FotoAspirante" type="xs:string"/>
-                <xs:element name="Tiempo_Dan_Anterior" type="xs:string"/>
-                <xs:element name="FotoDNI" type="xs:string"/>
-                <xs:element name="FotoCarnetGrados" type="xs:string"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
+            <xs:element name="aspirante">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Id_aspirante" type="xs:integer"/>
+                        <xs:element name="Nombres" type="xs:string"/>
+                        <xs:element name="Apellidos" type="xs:string"/>
+                        <xs:element name="DNI" type="xs:string"/>
+                        <xs:element name="Telefono" type="xs:string"/>
+                        <xs:element name="Direccion" type="xs:string"/>
+                        <xs:element name="Fecha_nacimiento" type="xs:string"/>
+                        <xs:element name="Dan" type="xs:string"/>
+                        <xs:element name="Cinturon" type="xs:string"/>
+                        <xs:element name="Fecha_Ingreso_Dan" type="xs:string"/>
+                        <xs:element name="FotoAspirante" type="xs:string"/>
+                        <xs:element name="Tiempo_Dan_Anterior" type="xs:string"/>
+                        <xs:element name="FotoDNI" type="xs:string"/>
+                        <xs:element name="FotoCarnetGrados" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
 
 
 
@@ -162,6 +161,8 @@ elementFormDefault="qualified">
 
 
 
+
+
             <xs:element name="CinturonNegro">
                 <xs:complexType>
                     <xs:sequence>
@@ -178,10 +179,45 @@ elementFormDefault="qualified">
 
 
 
-                        
-                    
 
 
+            <xs:element name="CinturonNegroPrimerDan">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Tecnica_Directa" type="xs:string"/>
+                        <xs:element name="Tecnica_Pierna" type="xs:string"/>
+                        <xs:element name="Tecnica_DirectaIndirecta" type="xs:string"/>
+                        <xs:element name="Tecnica_Combinada" type="xs:string"/>
+                        <xs:element name="Teoria" type="xs:string"/>
+                        <xs:element name="Kata" type="xs:string"/>
+                        <xs:element name="Kumite" type="xs:string"/>
+                        <xs:element name="Aplicación_Tecnica" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+
+
+
+
+            <xs:element name="CinturonNegroSegundoDan">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Tecnica_Base" type="xs:string"/>
+                        <xs:element name="Tecnica_Directa" type="xs:string"/>
+                        <xs:element name="Tecnica_DirectaIndirecta" type="xs:string"/>
+                        <xs:element name="Tecnica_Pierna" type="xs:string"/>
+                        <xs:element name="Tecnica_Combinada" type="xs:string"/>
+                        <xs:element name="Teoria" type="xs:string"/>
+                        <xs:element name="Kata" type="xs:string"/>
+                        <xs:element name="Kumite" type="xs:string"/>
+                        <xs:element name="Campeonatos" type="xs:string"/>
+                        <xs:element name="Tecnicas" type="xs:string"/>
+                        <xs:element name="Aplicación_Tecnica" type="xs:string"/>
+                        <xs:element name="Demo_libre" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
 
 
 
