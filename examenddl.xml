@@ -37,15 +37,15 @@ elementFormDefault="qualified">
 
 
 
-        <xs:element name="Meritos">
-            <xs:complexType>
-                <xs:sequence>
-                <xs:element name="Id_aspirante" type="xs:integer"/>
-                <xs:element name="Edad_aspirante" type="xs:integer"/>
-                <xs:element name="LicenciaActualizada" type="xs:boolean"/>
-                <xs:element name="TrabajoEscrito" type="xs:boolean"/>
-                </xs:sequence>
-            </xs:complexType>
+            <xs:element name="Meritos">
+                <xs:complexType>
+                    <xs:sequence>
+                    <xs:element name="Id_aspirante" type="xs:integer"/>
+                    <xs:element name="Edad_aspirante" type="xs:integer"/>
+                    <xs:element name="LicenciaActualizada" type="xs:boolean"/>
+                    <xs:element name="TrabajoEscrito" type="xs:boolean"/>
+                    </xs:sequence>
+                 </xs:complexType>
             </xs:element>
 
 
@@ -105,7 +105,7 @@ elementFormDefault="qualified">
                     <xs:element name="Respuestas" type="xs:integer"/>
                 </xs:sequence>
              </xs:complexType>
-             </xs:element>
+            </xs:element>
         
         
         
@@ -115,6 +115,32 @@ elementFormDefault="qualified">
                     <xs:sequence>
                     <xs:element name="Numero_jueces" type="xs:integer"/>
                     <xs:element name="Calificacion_final" type="xs:integer"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+
+
+
+
+            <xs:element name="AbonarCuota">
+                <xs:complexType>
+                    <xs:sequence>
+                    <xs:element name="Id_aspirante" type="xs:integer"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+
+
+
+            <xs:element name="SuspenderExamen">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Id_aspirante" type="xs:integer"/>
+                        <xs:element name="SuspendeParcial" type="xs:boolean"/>
+                        <xs:element name="SuspendeTotal" type="xs:boolean"/>
+                        <xs:element name="SuspendeSegundaFase" type="xs:boolean"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
