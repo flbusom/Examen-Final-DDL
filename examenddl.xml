@@ -50,7 +50,24 @@ elementFormDefault="qualified">
 
 
 
+        <xs:element name="Convalidacion_Grados">
+            <xs:complexType>
+                <xs:sequence>
+                <xs:element name="Id_aspirante" type="xs:integer"/>
+                </xs:sequence>
+            </xs:complexType>
+            </xs:element>
 
+
+
+            <xs:element name="Requisitos_Aspirantes">
+                <xs:complexType>
+                    <xs:sequence>
+                    <xs:element name="SolicitudHasta3Dan" type="xs:boolean"/>
+                    <xs:element name="D4anySuperiorCurriculum" type="xs:boolean"/>
+                    </xs:sequence>
+                </xs:complexType>
+                </xs:element>        
 
 
 
