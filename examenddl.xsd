@@ -1,53 +1,54 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://www.w3schools.com"
-xmlns="https://www.w3schools.com" elementFormDefault="qualified">
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
 
 
-            <xs:element name="Resultados">
+            <xs:element name="resultados">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="Id_aspirante" type="xs:integer"/>
+                            <xs:element name="id_aspirante" type="xs:integer"/>
                         </xs:sequence>
                     </xs:complexType>
             </xs:element>
 
 
-            <xs:element name="Aspirante">
+            <xs:element name="aspirante">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="Id_aspirante" type="xs:integer"/>
-                        <xs:element name="Nombres" type="xs:string"/>
-                        <xs:element name="Apellidos" type="xs:string"/>
+                        <xs:element name="id_aspirante" type="xs:integer"/>
+                        <xs:element name="nombre" type="xs:string"/>
+                        <xs:element name="apellidos" type="xs:string"/>
                         <xs:element name="DNI" type="xs:string"/>
-                        <xs:element name="Telefono" type="xs:string"/>
-                        <xs:element name="Direccion" type="xs:string"/>
-                        <xs:element name="Fechanacimiento" type="xs:string"/>
+                        <xs:element name="telefono" type="xs:string"/>
+                        <xs:element name="tireccion" type="xs:string"/>
+                        <xs:element name="fechanacimiento" type="xs:string"/>
                         <xs:element name="Dan" type="xs:string"/>
-                        <xs:element name="Cinturon" type="xs:string"/>
-                        <xs:element name="Fecha_ingreso_Dan" type="xs:string"/>
-                        <xs:element name="FotoAspirante" type="xs:string"/>
-                        <xs:element name="Tiempo_Dan_Anterior" type="xs:string"/>
-                        <xs:element name="FotoDNI" type="xs:string"/>
-                        <xs:element name="FotoCarnetGrados" type="xs:string"/>
+                        <xs:element name="cinturon" type="xs:string"/>
+                        <xs:element name="fecha_ingreso_Dan" type="xs:string"/>
+                        <xs:element name="fotoAspirante" type="xs:string"/>
+                        <xs:element name="tiempo_Dan_Anterior" type="xs:string"/>
+                        <xs:element name="fotoDNI" type="xs:string"/>
+                        <xs:element name="fotoCarnetGrados" type="xs:string"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
 
 
 
-            <xs:element name="Meritos">
+            <xs:element name="meritos">
                 <xs:complexType>
                     <xs:sequence>
-                    <xs:element name="Id_aspirante" type="xs:integer"/>
-                    <xs:element name="Edad_aspirante" type="xs:integer"/>
-                    <xs:element name="LicenciaActualizada" type="xs:boolean"/>
-                    <xs:element name="TrabajoEscrito" type="xs:boolean"/>
+                    <xs:element name="id_aspirante" type="xs:integer"/>
+                    <xs:element name="idad_aspirante" type="xs:integer"/>
+                    <xs:element name="licenciaActualizada" type="xs:boolean"/>
+                    <xs:element name="trabajoEscrito" type="xs:boolean"/>
                     </xs:sequence>
                  </xs:complexType>
             </xs:element>
 
 
 
-            <xs:element name="Convalidacion_Grados">
+            <xs:element name="convalidacion_Grados">
             <xs:complexType>
                     <xs:sequence>
                     <xs:element name="Id_aspirante" type="xs:integer"/>
@@ -57,7 +58,7 @@ xmlns="https://www.w3schools.com" elementFormDefault="qualified">
 
 
 
-            <xs:element name="RequisitosAspirantes">
+            <xs:element name="requisitosAspirantes">
             <xs:complexType>
                 <xs:sequence>
                 <xs:element name="SolicitudHasta3Dan" type="xs:boolean"/>
@@ -69,7 +70,7 @@ xmlns="https://www.w3schools.com" elementFormDefault="qualified">
 
 
 
-            <xs:element name="DispensaMedica">
+            <xs:element name="dispensaMedica">
                 <xs:complexType>
                     <xs:sequence>
                     <xs:element name="Id_aspirante" type="xs:integer"/>
@@ -79,7 +80,7 @@ xmlns="https://www.w3schools.com" elementFormDefault="qualified">
 
 
 
-            <xs:element name="Jueces">
+            <xs:element name="jueces">
                 <xs:complexType>
                     <xs:sequence>
                     <xs:element name="Id_aspirante" type="xs:integer"/>

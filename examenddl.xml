@@ -1,1 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<examenddl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="examenddl.xsd">
+
+    <resultados>
+        <id_aspirante>001</id_aspirante>
+
+    </resultados>
+
+    <aspirante>
+        <id_aspirante></id_aspirante>
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <DNI></DNI>
+        <telefono></telefono>
+
+
+    </aspirante>
+
+
+
+
+
+
+</examenddl>
