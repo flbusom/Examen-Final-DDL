@@ -10,14 +10,118 @@
     </resultados>
 
     <aspirante>
-        <id_aspirante></id_aspirante>
+        <id_aspirante>002</id_aspirante>
         <nombre></nombre>
         <apellidos></apellidos>
         <DNI></DNI>
         <telefono></telefono>
-
+        <direccion></direccion>
+        <fechanacimiento></fechanacimiento>
+        <Dan></Dan>
+        <cinturon></cinturon>
+        <fecha_ingreso_Dan></fecha_ingreso_Dan>
+        <fotoAspirante></fotoAspirante>
+        <tiempo_Dan_Anterior></tiempo_Dan_Anterior>
+        <fotoDNI></fotoDNI>
+        <fotoCarnetGrados></fotoCarnetGrados>
 
     </aspirante>
+
+    <meritos>
+        <id_aspirante>003</id_aspirante>
+        <edad_aspirante>29</edad_aspirante>
+        <licenciaActualizada></licenciaActualizada>
+        <trabajoEscrito></trabajoEscrito>
+
+    </meritos>
+
+
+
+
+    <convalidacion_Grados>
+        <id_aspirante>004</id_aspirante>
+
+
+    </convalidacion_Grados>
+
+
+
+
+
+    <requisitosAspirantes>
+        <solicitudHasta3Dan></solicitudHasta3Dan>
+        <danySuperiorCurriculum></danySuperiorCurriculum>
+
+    </requisitosAspirantes>
+
+
+
+
+    <dispensaMedica>
+        <id_aspirante>0005</id_aspirante>
+        
+    </dispensaMedica>
+
+
+
+    <jueces>
+        <id_aspirante>005</id_aspirante>
+        <nombre>Juanda</nombre>
+        <apellidos>Garri Moreras</apellidos>
+        <diplomaJuez></diplomaJuez>
+
+
+    </jueces>
+
+
+
+    <criterio_Valoracion>
+        <indumentaria></indumentaria>
+        <aseoPersonal></aseoPersonal>
+        <ejecucionTecnica></ejecucionTecnica>
+        <valores></valores>
+        <respuestas></respuestas>
+
+    </criterio_Valoracion>
+
+
+
+    <tribunal>
+        <numerojueces></numerojueces>
+        <calificacion_final></calificacion_final>
+
+    </tribunal>
+
+
+
+
+    <abonarCuota>
+        <id_aspirante>006</id_aspirante>
+
+
+    </abonarCuota>
+
+
+
+    
+    <suspenderExamen>
+        <id_aspirante></id_aspirante>
+        <suspenderParcial></suspenderParcial>
+        <suspenderTotal></suspenderTotal>
+        <suspenderSegundaFase></suspenderSegundaFase>
+
+
+    </suspenderExamen>
+
+
+
+
+
+
+
+
+
+
 
 
 
