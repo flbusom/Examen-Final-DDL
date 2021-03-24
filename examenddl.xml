@@ -1,15 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE listacursos [
-                <!ELEMENT listacursos (cursos+)>
-                <!ELEMENT cursos (alumno*)>
-                <!ELEMENT alumno (dni, nombre, papellido, sapellido?, asignatura+)>
-                <!ELEMENT dni (#PCDATA)>
-                <!ELEMENT nombre (#PCDATA)>
-                <!ELEMENT papellido (#PCDATA)>
-                <!ELEMENT sapellido (#PCDATA)>
-                <!ELEMENT asignatura (nombre, profesor)>
-                <!ATTLIST asignatura codigo CDATA #REQUIRED>
-                <!ELEMENT profesor (nrp, nombre, papellido, sapellido?)>
-                <!ELEMENT nrp (#PCDATA)>
-                
- ]>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://www.w3schools.com"
+xmlns="https://www.w3schools.com"
+elementFormDefault="qualified">
+
+
+<xs:element name="CriterioValoracion">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Id_aspirante" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="aspirante">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Id_aspirante" type="xs:integer"/>
+                <xs:element name="Nombres" type="xs:string"/>
+                <xs:element name="Apellidos" type="xs:string"/>
+                <xs:element name="DNI" type="xs:string"/>
+                <xs:element name="Telefono" type="xs:string"/>
+                <xs:element name="Direccion" type="xs:string"/>
+                <xs:element name="Fecha_nacimiento" type="xs:string"/>
+                <xs:element name="Dan" type="xs:string"/>
+                <xs:element name="Cinturon" type="xs:string"/>
+                <xs:element name="Fecha_Ingreso_Dan" type="xs:string"/>
+                <xs:element name="FotoAspirante" type="xs:string"/>
+                <xs:element name="Tiempo_Dan_Anterior" type="xs:string"/>
+                <xs:element name="FotoDNI" type="xs:string"/>
+                <xs:element name="FotoCarnetGrados" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+    <xs:element name="Meritos">
+        <xs:complexType>
+            <xs:sequence>
+            <xs:element name="Id_aspirante" type="xs:integer"/>
+            <xs:element name="Edad_aspirante" type="xs:integer"/>
+            <xs:element name="LicenciaActualizada" type="xs:boolean"/>
+            <xs:element name="TrabajoEscrito" type="xs:boolean"/>
+            </xs:sequence>
+        </xs:complexType>
+        </xs:element>
+
+
+
+
+
+
+
+
+
+
+
+
+</xs:schema>
