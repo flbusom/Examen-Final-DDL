@@ -72,6 +72,40 @@ elementFormDefault="qualified">
 
 
 
+                <xs:element name="DispensaMedica">
+                    <xs:complexType>
+                        <xs:sequence>
+                        <xs:element name="Id_aspirante" type="xs:integer"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                    </xs:element>
+
+
+
+                    <xs:element name="Jueces">
+                        <xs:complexType>
+                            <xs:sequence>
+                            <xs:element name="Id_aspirante" type="xs:integer"/>
+                            <xs:element name="Nombres" type="xs:string"/>
+                            <xs:element name="Apellidos" type="xs:string"/>
+                            <xs:element name="DiplomaJuez" type="xs:boolean"/>
+                            </xs:sequence>
+                        </xs:complexType>
+                        </xs:element>
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
