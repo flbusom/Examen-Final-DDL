@@ -4,7 +4,7 @@
 xmlns="https://www.w3schools.com" elementFormDefault="qualified">
 
 
-            <xs:element name="CriterioValoracion">
+            <xs:element name="Resultados">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="Id_aspirante" type="xs:integer"/>
@@ -13,7 +13,7 @@ xmlns="https://www.w3schools.com" elementFormDefault="qualified">
             </xs:element>
 
 
-            <xs:element name="aspirante">
+            <xs:element name="Aspirante">
                 <xs:complexType>
                     <xs:sequence>
                         <xs:element name="Id_aspirante" type="xs:integer"/>
@@ -22,10 +22,10 @@ xmlns="https://www.w3schools.com" elementFormDefault="qualified">
                         <xs:element name="DNI" type="xs:string"/>
                         <xs:element name="Telefono" type="xs:string"/>
                         <xs:element name="Direccion" type="xs:string"/>
-                        <xs:element name="Fecha_nacimiento" type="xs:string"/>
+                        <xs:element name="Fechanacimiento" type="xs:string"/>
                         <xs:element name="Dan" type="xs:string"/>
                         <xs:element name="Cinturon" type="xs:string"/>
-                        <xs:element name="Fecha_Ingreso_Dan" type="xs:string"/>
+                        <xs:element name="Fecha_ingreso_Dan" type="xs:string"/>
                         <xs:element name="FotoAspirante" type="xs:string"/>
                         <xs:element name="Tiempo_Dan_Anterior" type="xs:string"/>
                         <xs:element name="FotoDNI" type="xs:string"/>
@@ -59,7 +59,7 @@ xmlns="https://www.w3schools.com" elementFormDefault="qualified">
 
 
 
-            <xs:element name="Requisitos_Aspirantes">
+            <xs:element name="RequisitosAspirantes">
             <xs:complexType>
                 <xs:sequence>
                 <xs:element name="SolicitudHasta3Dan" type="xs:boolean"/>
@@ -112,13 +112,11 @@ xmlns="https://www.w3schools.com" elementFormDefault="qualified">
             <xs:element name="Tribunal">
                 <xs:complexType>
                     <xs:sequence>
-                    <xs:element name="Numero_jueces" type="xs:integer"/>
+                    <xs:element name="Numerojueces" type="xs:integer"/>
                     <xs:element name="Calificacion_final" type="xs:integer"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
-
-
 
 
 
@@ -132,7 +130,6 @@ xmlns="https://www.w3schools.com" elementFormDefault="qualified">
 
 
 
-
             <xs:element name="SuspenderExamen">
                 <xs:complexType>
                     <xs:sequence>
@@ -140,6 +137,17 @@ xmlns="https://www.w3schools.com" elementFormDefault="qualified">
                         <xs:element name="SuspenderParcial" type="xs:boolean"/>
                         <xs:element name="SuspenderTotal" type="xs:boolean"/>
                         <xs:element name="SuspenderSegundaFase" type="xs:boolean"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+
+
+            <xs:element name="QuintoDanySuperior">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Kata" type="xs:string"/>
+                        <xs:element name="Coloquio" type="xs:string"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
@@ -161,8 +169,6 @@ xmlns="https://www.w3schools.com" elementFormDefault="qualified">
 
 
 
-
-
             <xs:element name="CinturonNegro">
                 <xs:complexType>
                     <xs:sequence>
@@ -175,8 +181,6 @@ xmlns="https://www.w3schools.com" elementFormDefault="qualified">
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
-
-
 
 
 
@@ -198,8 +202,6 @@ xmlns="https://www.w3schools.com" elementFormDefault="qualified">
 
 
 
-
-
             <xs:element name="CinturonNegroSegundoDan">
                 <xs:complexType>
                     <xs:sequence>
@@ -218,8 +220,6 @@ xmlns="https://www.w3schools.com" elementFormDefault="qualified">
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
-
-
 
 
 
@@ -256,14 +256,7 @@ xmlns="https://www.w3schools.com" elementFormDefault="qualified">
 
 
 
-            <xs:element name="QuintoDanySuperior">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="Kata" type="xs:string"/>
-                        <xs:element name="Coloquio" type="xs:string"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
+           
 
 
 
