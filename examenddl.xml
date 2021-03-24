@@ -138,9 +138,39 @@ elementFormDefault="qualified">
                 <xs:complexType>
                     <xs:sequence>
                         <xs:element name="Id_aspirante" type="xs:integer"/>
-                        <xs:element name="SuspendeParcial" type="xs:boolean"/>
-                        <xs:element name="SuspendeTotal" type="xs:boolean"/>
-                        <xs:element name="SuspendeSegundaFase" type="xs:boolean"/>
+                        <xs:element name="SuspenderParcial" type="xs:boolean"/>
+                        <xs:element name="SuspenderTotal" type="xs:boolean"/>
+                        <xs:element name="SuspenderSegundaFase" type="xs:boolean"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+
+
+
+
+            <xs:element name="Hasta3erDan">
+                <xs:complexType>
+                     <xs:sequence>
+                        <xs:element name="Tecnicas" type="xs:string"/>
+                        <xs:element name="Kata" type="xs:string"/>
+                        <xs:element name="Kumite" type="xs:string"/>
+                        <xs:element name="Campeonatos" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+
+
+            <xs:element name="CinturonNegro">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Tecnica_Directa" type="xs:string"/>
+                        <xs:element name="Tecnica_Circulares" type="xs:string"/>
+                        <xs:element name="Tecnica_Pierna" type="xs:string"/>
+                        <xs:element name="Teoria" type="xs:string"/>
+                        <xs:element name="Kata" type="xs:string"/>
+                        <xs:element name="Kumite" type="xs:string"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
