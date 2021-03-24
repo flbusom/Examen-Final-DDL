@@ -87,8 +87,10 @@
 
 
     <tribunal>
-        <numerojueces></numerojueces>
-        <calificacion_final></calificacion_final>
+        <numerojueces>3</numerojueces>
+        <calificacion_final>7</calificacion_final>
+
+        
 
     </tribunal>
 
@@ -103,16 +105,65 @@
 
 
 
-    
+
     <suspenderExamen>
-        <id_aspirante></id_aspirante>
-        <suspenderParcial></suspenderParcial>
-        <suspenderTotal></suspenderTotal>
-        <suspenderSegundaFase></suspenderSegundaFase>
+        <id_aspirante>007</id_aspirante>
+        <suspenderParcial>false</suspenderParcial>
+        <suspenderTotal>false</suspenderTotal>
+        <suspenderSegundaFase>false</suspenderSegundaFase>
 
 
     </suspenderExamen>
 
+
+
+    <quintoDanySuperior>
+        <kata></kata>
+        <coloquio></coloquio>
+
+
+    </quintoDanySuperior>
+
+
+
+
+    <hasta3erDan>
+        <tecnicas></tecnicas>
+        <kata></kata>
+        <kumite></kumite>
+        <campeonatos></campeonatos>
+
+
+    </hasta3erDan>
+
+
+
+
+    <cinturonNegro>
+        <tecnica_Directa></tecnica_Directa>
+        <tecnica_Circulares></tecnica_Circulares>
+        <tecnica_Pierna></tecnica_Pierna>
+        <teoria></teoria>
+        <kata></kata>
+        <kumite></kumite>
+
+
+    </cinturonNegro>
+
+
+
+
+    <cinturonNegroPrimerDan>
+        <tecnica_Directa></tecnica_Directa>
+        <tecnica_Pierna></tecnica_Pierna>
+        <tecnica_DirectaIndirecta></tecnica_DirectaIndirecta>
+        <tecnica_Combinada></tecnica_Combinada>
+        <teoria></teoria>
+        <kata></kata>
+        <kumite></kumite>
+        <aplicación_Tecnica></aplicación_Tecnica>
+
+    </cinturonNegroPrimerDan>
 
 
 

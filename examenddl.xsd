@@ -142,11 +142,11 @@
 
 
 
-            <xs:element name="QuintoDanySuperior">
+            <xs:element name="quintoDanySuperior">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="Kata" type="xs:string"/>
-                        <xs:element name="Coloquio" type="xs:string"/>
+                        <xs:element name="kata" type="xs:string"/>
+                        <xs:element name="coloquio" type="xs:string"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
@@ -155,28 +155,28 @@
 
 
 
-            <xs:element name="Hasta3erDan">
+            <xs:element name="hasta3erDan">
                 <xs:complexType>
                      <xs:sequence>
-                        <xs:element name="Tecnicas" type="xs:string"/>
-                        <xs:element name="Kata" type="xs:string"/>
-                        <xs:element name="Kumite" type="xs:string"/>
-                        <xs:element name="Campeonatos" type="xs:string"/>
+                        <xs:element name="tecnicas" type="xs:string"/>
+                        <xs:element name="kata" type="xs:string"/>
+                        <xs:element name="kumite" type="xs:string"/>
+                        <xs:element name="campeonatos" type="xs:string"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
 
 
 
-            <xs:element name="CinturonNegro">
+            <xs:element name="cinturonNegro">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="Tecnica_Directa" type="xs:string"/>
-                        <xs:element name="Tecnica_Circulares" type="xs:string"/>
-                        <xs:element name="Tecnica_Pierna" type="xs:string"/>
-                        <xs:element name="Teoria" type="xs:string"/>
-                        <xs:element name="Kata" type="xs:string"/>
-                        <xs:element name="Kumite" type="xs:string"/>
+                        <xs:element name="tecnica_Directa" type="xs:string"/>
+                        <xs:element name="tecnica_Circulares" type="xs:string"/>
+                        <xs:element name="tecnica_Pierna" type="xs:string"/>
+                        <xs:element name="teoria" type="xs:string"/>
+                        <xs:element name="kata" type="xs:string"/>
+                        <xs:element name="kumite" type="xs:string"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
@@ -184,17 +184,17 @@
 
 
 
-            <xs:element name="CinturonNegroPrimerDan">
+            <xs:element name="cinturonNegroPrimerDan">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="Tecnica_Directa" type="xs:string"/>
-                        <xs:element name="Tecnica_Pierna" type="xs:string"/>
-                        <xs:element name="Tecnica_DirectaIndirecta" type="xs:string"/>
-                        <xs:element name="Tecnica_Combinada" type="xs:string"/>
-                        <xs:element name="Teoria" type="xs:string"/>
-                        <xs:element name="Kata" type="xs:string"/>
-                        <xs:element name="Kumite" type="xs:string"/>
-                        <xs:element name="Aplicación_Tecnica" type="xs:string"/>
+                        <xs:element name="tecnica_Directa" type="xs:string"/>
+                        <xs:element name="tecnica_Pierna" type="xs:string"/>
+                        <xs:element name="tecnica_DirectaIndirecta" type="xs:string"/>
+                        <xs:element name="tecnica_Combinada" type="xs:string"/>
+                        <xs:element name="teoria" type="xs:string"/>
+                        <xs:element name="kata" type="xs:string"/>
+                        <xs:element name="kumite" type="xs:string"/>
+                        <xs:element name="aplicación_Tecnica" type="xs:string"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
