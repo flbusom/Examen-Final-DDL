@@ -241,8 +241,6 @@ xmlns="https://www.w3schools.com" elementFormDefault="qualified">
 
 
 
-            
-
             <xs:element name="CinturonNegroCuartoDan">
                 <xs:complexType>
                     <xs:sequence>
@@ -254,6 +252,24 @@ xmlns="https://www.w3schools.com" elementFormDefault="qualified">
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
+
+
+
+
+            <xs:element name="QuintoDanySuperior">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Kata" type="xs:string"/>
+                        <xs:element name="Coloquio" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+
+
+
+
+
 
 
 
