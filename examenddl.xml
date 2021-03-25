@@ -7,6 +7,7 @@
 
     <examen>
         <id_aspirante>342</id_aspirante>
+        
     </examen>
 
 
@@ -47,26 +48,26 @@
 
 
 
-    <convalidacion_Grados>
+    <convalidacion_grados>
         <id_aspirante>004</id_aspirante>
 
-    </convalidacion_Grados>
+    </convalidacion_grados>
 
 
 
 
-    <requisitosAspirantes>
+    <requisitosaspirantes>
         <solicitudHasta3Dan>true</solicitudHasta3Dan>
         <danySuperiorCurriculum>true</danySuperiorCurriculum>
 
-    </requisitosAspirantes>
+    </requisitosaspirantes>
 
 
 
-    <dispensaMedica>
+    <dispensamedica>
         <id_aspirante>0005</id_aspirante>
         
-    </dispensaMedica>
+    </dispensamedica>
 
 
 
@@ -81,14 +82,14 @@
 
 
 
-    <criterio_Valoracion>
+    <criteriovaloracion>
         <indumentaria>03</indumentaria>
         <aseoPersonal>01</aseoPersonal>
         <ejecucionTecnica>10</ejecucionTecnica>
         <valores>5</valores>
         <respuestas>2</respuestas>
 
-    </criterio_Valoracion>
+    </criteriovaloracion>
 
 
 
@@ -102,45 +103,45 @@
 
 
 
-    <abonarCuota>
+    <abonarcuota>
         <id_aspirante>006</id_aspirante>
 
-    </abonarCuota>
+    </abonarcuota>
 
 
 
-    <suspenderExamen>
+    <suspenderexamen>
         <id_aspirante>007</id_aspirante>
         <suspenderParcial>false</suspenderParcial>
         <suspenderTotal>false</suspenderTotal>
         <suspenderSegundaFase>false</suspenderSegundaFase>
 
 
-    </suspenderExamen>
+    </suspenderexamen>
 
 
 
-    <quintoDanySuperior>
+    <quintodanysuperior>
         <kata></kata>
         <coloquio></coloquio>
 
 
-    </quintoDanySuperior>
+    </quintodanysuperior>
 
 
 
-    <hasta3erDan>
+    <hasta3dan>
         <tecnicas></tecnicas>
         <kata></kata>
         <kumite></kumite>
         <campeonatos></campeonatos>
 
 
-    </hasta3erDan>
+    </hasta3dan>
 
 
 
-    <cinturonNegro>
+    <cinturonnegro>
         <tecnica_Directa></tecnica_Directa>
         <tecnica_Circulares></tecnica_Circulares>
         <tecnica_Pierna></tecnica_Pierna>
@@ -149,7 +150,7 @@
         <kumite></kumite>
 
 
-    </cinturonNegro>
+    </cinturonnegro>
 
 
 

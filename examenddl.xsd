@@ -2,17 +2,42 @@
 
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
 
-            <xsd:element name="examen" type="tipoexamen" />
-                <xsd:complexType name="tipoexamen">
+            <xsd:element name="examen" type="tipoexamen1" />
+                <xsd:complexType name="tipoexamen1">
                     <xsd:sequence>
-                        <xsd:element name="id_aspirante" type="xsd:integer" maxOccurs="unbounded"/>
-
+                        <xsd:element name="examen" type="tipoexamen" maxOccurs="unbounded"/>
+                        <xsd:element name="resultados" type="tiporesultado" maxOccurs="unbounded"/>
+                        <xsd:element name="aspirante" type="tipoaspirante" maxOccurs="unbounded"/>
+                        <xsd:element name="meritos" type="tipomeritos" maxOccurs="unbounded"/>
+                        <xsd:element name="convalidacion_grados" type="tipoconvalidacion" maxOccurs="unbounded"/>
+                        <xsd:element name="requisitosaspirantes" type="tiporequisitos" maxOccurs="unbounded"/>
+                        <xsd:element name="dispensamedica" type="tipodispensa" maxOccurs="unbounded"/>
+                        <xsd:element name="jueces" type="tipojueces" maxOccurs="unbounded"/>
+                        <xsd:element name="criteriovaloracion" type="tipocriterio" maxOccurs="unbounded"/>
+                        <xsd:element name="tribunal" type="tipotribunal" maxOccurs="unbounded"/>
+                        <xsd:element name="abonarcuota" type="tipoabonar" maxOccurs="unbounded"/>
+                        <xsd:element name="suspenderexamen" type="tiposuspender" maxOccurs="unbounded"/>
+                        <xsd:element name="quintodanysuperior" type="tipoquintodan" maxOccurs="unbounded"/>
+                        <xsd:element name="hasta3dan" type="tipohasta3" maxOccurs="unbounded"/>
+                        <xsd:element name="cinturonnegro" type="tipocinturonnegro" maxOccurs="unbounded"/>
+                        <xsd:element name="cinturonNegroPrimerDan" type="tipo1dan" maxOccurs="unbounded"/>
+                        <xsd:element name="cinturonNegroSegundoDan" type="tipo2dan" maxOccurs="unbounded"/>
+                        <xsd:element name="cinturonNegroTercerDan" type="tipo3dan" maxOccurs="unbounded"/>
+                        <xsd:element name="cinturonNegroCuartoDan" type="tipo4dan" maxOccurs="unbounded"/>
+                         
+                        
                     </xsd:sequence>
                 </xsd:complexType>
 
 
+                <xsd:complexType name="tipoexamen">
+                    <xsd:sequence>
+                        <xsd:element name="id_aspirante" type="xsd:integer" maxOccurs="unbounded"/>
+                    </xsd:sequence>   
+                </xsd:complexType>
 
-            <xsd:element name="resultados" type="tiporesultado"/>
+
+    
                 <xsd:complexType name="tiporesultado">
                     <xsd:sequence>
                         <xsd:element name="id_aspirante" type="xsd:integer" maxOccurs="unbounded"/>
@@ -20,10 +45,6 @@
                 </xsd:complexType>
             
 
-
-
-
-           <xsd:element name="aspirante" type="tipoaspirante"/>
 
                 <xsd:complexType name="tipoaspirante">
                     <xsd:sequence>
@@ -46,8 +67,6 @@
             
 
 
-
-            <xsd:element name="meritos" type="tipomeritos"/>
                 <xsd:complexType name="tipomeritos">
                     <xsd:sequence>
                         <xsd:element name="id_aspirante" type="xsd:integer"/>
@@ -59,8 +78,6 @@
            
 
 
-
-            <xsd:element name="convalidacion_Grados" type="tipoconvalidacion"/>
                 <xsd:complexType name="tipoconvalidacion">
                     <xsd:sequence>
                         <xsd:element name="id_aspirante" type="xsd:integer"/>
@@ -69,8 +86,6 @@
             
 
 
-
-            <xsd:element name="requisitosAspirantes" type="tiporequisitos"/>
                 <xsd:complexType name="tiporequisitos">
                     <xsd:sequence>
                         <xsd:element name="solicitudHasta3Dan" type="xsd:boolean"/>
@@ -80,8 +95,6 @@
                   
 
 
-
-            <xsd:element name="dispensaMedica" type="tipodispensa"/>
                 <xsd:complexType name="tipodispensa">
                     <xsd:sequence>
                         <xsd:element name="id_aspirante" type="xsd:integer"/>
@@ -91,7 +104,7 @@
 
 
 
-            <xsd:element name="jueces" type="tipojueces"/>
+            
                 <xsd:complexType name="tipojueces"> 
                     <xsd:sequence>
                         <xsd:element name="id_aspirante" type="xsd:integer"/>
@@ -103,8 +116,6 @@
             
 
 
-
-            <xsd:element name="criterio_Valoracion" type="tipocriterio"/>
                 <xsd:complexType name="tipocriterio"> 
                     <xsd:sequence>
                         <xsd:element name="indumentaria" type="xsd:integer"/>
@@ -118,7 +129,6 @@
         
         
         
-            <xsd:element name="tribunal" type="tipotribunal"/>
                 <xsd:complexType name="tipotribunal">
                     <xsd:sequence>
                         <xsd:element name="numerojueces" type="xsd:integer"/>
@@ -129,7 +139,7 @@
 
 
 
-            <xsd:element name="abonarCuota" type="tipoabonar"/>
+            
                 <xsd:complexType name="tipoabonar">
                     <xsd:sequence>
                         <xsd:element name="id_aspirante" type="xsd:integer"/>
@@ -139,7 +149,6 @@
 
 
 
-            <xsd:element name="suspenderExamen" type="tiposuspender"/>
                 <xsd:complexType name="tiposuspender">
                     <xsd:sequence>
                         <xsd:element name="id_aspirante" type="xsd:integer"/>
@@ -152,7 +161,6 @@
 
 
 
-            <xsd:element name="quintoDanySuperior" type="tipoquintodan"/>
                 <xsd:complexType name="tipoquintodan">
                     <xsd:sequence>
                         <xsd:element name="kata" type="xsd:string"/>
@@ -162,8 +170,6 @@
             
 
 
-
-            <xsd:element name="hasta3erDan" type="tipohasta3"/>
                 <xsd:complexType name="tipohasta3">
                      <xsd:sequence>
                         <xsd:element name="tecnicas" type="xsd:string"/>
@@ -176,7 +182,6 @@
 
 
 
-            <xsd:element name="cinturonNegro" type="tipocinturonnegro"/>
                 <xsd:complexType name="tipocinturonnegro">
                     <xsd:sequence>
                         <xsd:element name="tecnica_Directa" type="xsd:string"/>
@@ -191,8 +196,8 @@
 
 
 
-            <xsd:element name="cinturonNegroPrimerDan" type="tipocinturonnegro1dan"/>
-                <xsd:complexType name="tipocinturonnegro1dan">
+            
+                <xsd:complexType name="tipo1dan">
                     <xsd:sequence>
                         <xsd:element name="tecnica_Directa" type="xsd:string"/>
                         <xsd:element name="tecnica_Pierna" type="xsd:string"/>
@@ -208,8 +213,7 @@
 
 
 
-            <xsd:element name="cinturonNegroSegundoDan" type="tipocinturonnegro2dan"/>
-                <xsd:complexType name="tipocinturonnegro2dan">
+                <xsd:complexType name="tipo2dan">
                     <xsd:sequence>
                         <xsd:element name="tecnica_Base" type="xsd:string"/>
                         <xsd:element name="tecnica_Directa" type="xsd:string"/>
@@ -229,8 +233,8 @@
 
 
 
-            <xsd:element name="cinturonNegroTercerDan" type="tipocinturonnegro3dan"/>
-                <xsd:complexType name="tipocinturonnegro3dan">
+            
+                <xsd:complexType name="tipo3dan">
                     <xsd:sequence>
                         <xsd:element name="variaciones_Tecnica" type="xsd:string"/>
                         <xsd:element name="teoria" type="xsd:string"/>
@@ -247,8 +251,8 @@
 
 
 
-            <xsd:element name="cinturonNegroCuartoDan" type="tipocinturonnegro4dan"/>
-                <xsd:complexType name="tipocinturonnegro4dan">
+           
+                <xsd:complexType name="tipo4dan">
                     <xsd:sequence>
                         <xsd:element name="kata" type="xsd:string"/>
                         <xsd:element name="kumite" type="xsd:string"/>
@@ -258,7 +262,4 @@
                     </xsd:sequence>
                 </xsd:complexType>
             
-
-         
-
 </xsd:schema>
