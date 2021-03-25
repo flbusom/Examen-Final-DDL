@@ -11,27 +11,27 @@
 
     <aspirante>
         <id_aspirante>002</id_aspirante>
-        <nombre></nombre>
-        <apellidos></apellidos>
-        <DNI></DNI>
-        <telefono></telefono>
-        <direccion></direccion>
-        <fechanacimiento></fechanacimiento>
-        <Dan></Dan>
-        <cinturon></cinturon>
-        <fecha_ingreso_Dan></fecha_ingreso_Dan>
+        <nombre>Damia</nombre>
+        <apellidos>Garri Seros</apellidos>
+        <DNI>12547698T</DNI>
+        <telefono>647893421</telefono>
+        <direccion>doctor robert</direccion>
+        <fechanacimiento>2000-03-1</fechanacimiento>
+        <Dan>1</Dan>
+        <cinturon>negro</cinturon>
+        <fecha_ingreso_Dan>2019-05-23</fecha_ingreso_Dan>
         <fotoAspirante></fotoAspirante>
-        <tiempo_Dan_Anterior></tiempo_Dan_Anterior>
-        <fotoDNI></fotoDNI>
-        <fotoCarnetGrados></fotoCarnetGrados>
+        <tiempo_Dan_Anterior>años</tiempo_Dan_Anterior>
+        <fotoDNI>dni.png</fotoDNI>
+        <fotoCarnetGrados>grados.png</fotoCarnetGrados>
 
     </aspirante>
 
     <meritos>
         <id_aspirante>003</id_aspirante>
         <edad_aspirante>29</edad_aspirante>
-        <licenciaActualizada></licenciaActualizada>
-        <trabajoEscrito></trabajoEscrito>
+        <licenciaActualizada>false</licenciaActualizada>
+        <trabajoEscrito>false</trabajoEscrito>
 
     </meritos>
 
@@ -41,7 +41,6 @@
     <convalidacion_Grados>
         <id_aspirante>004</id_aspirante>
 
-
     </convalidacion_Grados>
 
 
@@ -49,8 +48,8 @@
 
 
     <requisitosAspirantes>
-        <solicitudHasta3Dan></solicitudHasta3Dan>
-        <danySuperiorCurriculum></danySuperiorCurriculum>
+        <solicitudHasta3Dan>true</solicitudHasta3Dan>
+        <danySuperiorCurriculum>true</danySuperiorCurriculum>
 
     </requisitosAspirantes>
 
@@ -68,7 +67,7 @@
         <id_aspirante>005</id_aspirante>
         <nombre>Juanda</nombre>
         <apellidos>Garri Moreras</apellidos>
-        <diplomaJuez></diplomaJuez>
+        <diplomaJuez>true</diplomaJuez>
 
 
     </jueces>
@@ -76,11 +75,11 @@
 
 
     <criterio_Valoracion>
-        <indumentaria></indumentaria>
-        <aseoPersonal></aseoPersonal>
-        <ejecucionTecnica></ejecucionTecnica>
-        <valores></valores>
-        <respuestas></respuestas>
+        <indumentaria>03</indumentaria>
+        <aseoPersonal>01</aseoPersonal>
+        <ejecucionTecnica>10</ejecucionTecnica>
+        <valores>5</valores>
+        <respuestas>2</respuestas>
 
     </criterio_Valoracion>
 
@@ -161,20 +160,55 @@
         <teoria></teoria>
         <kata></kata>
         <kumite></kumite>
-        <aplicación_Tecnica></aplicación_Tecnica>
+        <aplicacion_Tecnica></aplicacion_Tecnica>
 
     </cinturonNegroPrimerDan>
 
 
 
+    <cinturonNegroSegundoDan>
+        <tecnica_Base></tecnica_Base>
+        <tecnica_Directa></tecnica_Directa>
+        <tecnica_DirectaIndirecta></tecnica_DirectaIndirecta>
+        <tecnica_Pierna></tecnica_Pierna>
+        <tecnica_Combinada></tecnica_Combinada>
+        <teoria></teoria>
+        <kata></kata>
+        <kumite></kumite>
+        <campeonatos></campeonatos>
+        <tecnicas></tecnicas>
+        <aplicacion_Tecnica></aplicacion_Tecnica>
+        <demo_libre></demo_libre>
+
+    </cinturonNegroSegundoDan>
 
 
 
 
+    <cinturonNegroTercerDan>
+        <variaciones_Tecnica></variaciones_Tecnica>
+        <teoria></teoria>
+        <kata></kata>
+        <kumite></kumite>
+        <campeonatos></campeonatos>
+        <tecnicas></tecnicas>
+        <aplicaciones></aplicaciones>
+        <aplicacion_Tecnica></aplicacion_Tecnica>
+        <demo_libre></demo_libre>
+
+    </cinturonNegroTercerDan>
 
 
 
 
+    <cinturonNegroCuartoDan>
+        <kata></kata>
+        <kumite></kumite>
+        <coloquio></coloquio>
+        <aplicacion_Tecnica></aplicacion_Tecnica>
+        <demo_libre></demo_libre>
+
+    </cinturonNegroCuartoDan>
 
 
 

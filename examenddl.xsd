@@ -194,60 +194,60 @@
                         <xs:element name="teoria" type="xs:string"/>
                         <xs:element name="kata" type="xs:string"/>
                         <xs:element name="kumite" type="xs:string"/>
-                        <xs:element name="aplicación_Tecnica" type="xs:string"/>
+                        <xs:element name="aplicacion_Tecnica" type="xs:string"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
 
 
 
-            <xs:element name="CinturonNegroSegundoDan">
+            <xs:element name="cinturonNegroSegundoDan">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="Tecnica_Base" type="xs:string"/>
-                        <xs:element name="Tecnica_Directa" type="xs:string"/>
-                        <xs:element name="Tecnica_DirectaIndirecta" type="xs:string"/>
-                        <xs:element name="Tecnica_Pierna" type="xs:string"/>
-                        <xs:element name="Tecnica_Combinada" type="xs:string"/>
-                        <xs:element name="Teoria" type="xs:string"/>
-                        <xs:element name="Kata" type="xs:string"/>
-                        <xs:element name="Kumite" type="xs:string"/>
-                        <xs:element name="Campeonatos" type="xs:string"/>
-                        <xs:element name="Tecnicas" type="xs:string"/>
-                        <xs:element name="Aplicación_Tecnica" type="xs:string"/>
-                        <xs:element name="Demo_libre" type="xs:string"/>
+                        <xs:element name="tecnica_Base" type="xs:string"/>
+                        <xs:element name="tecnica_Directa" type="xs:string"/>
+                        <xs:element name="tecnica_DirectaIndirecta" type="xs:string"/>
+                        <xs:element name="tecnica_Pierna" type="xs:string"/>
+                        <xs:element name="tecnica_Combinada" type="xs:string"/>
+                        <xs:element name="teoria" type="xs:string"/>
+                        <xs:element name="kata" type="xs:string"/>
+                        <xs:element name="kumite" type="xs:string"/>
+                        <xs:element name="campeonatos" type="xs:string"/>
+                        <xs:element name="tecnicas" type="xs:string"/>
+                        <xs:element name="aplicacion_Tecnica" type="xs:string"/>
+                        <xs:element name="demo_libre" type="xs:string"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
 
 
 
-            <xs:element name="CinturonNegroTercerDan">
+            <xs:element name="cinturonNegroTercerDan">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="Variaciones_Tecnica" type="xs:string"/>
-                        <xs:element name="Teoria" type="xs:string"/>
-                        <xs:element name="Kata" type="xs:string"/>
-                        <xs:element name="Kumite" type="xs:string"/>
-                        <xs:element name="Campeonatos" type="xs:string"/>
-                        <xs:element name="Tecnicas" type="xs:string"/>
-                        <xs:element name="Aplicaciones" type="xs:string"/>
-                        <xs:element name="Aplicacion_Tecnica" type="xs:string"/>
-                        <xs:element name="Demo_libre" type="xs:string"/>
+                        <xs:element name="variaciones_Tecnica" type="xs:string"/>
+                        <xs:element name="teoria" type="xs:string"/>
+                        <xs:element name="kata" type="xs:string"/>
+                        <xs:element name="kumite" type="xs:string"/>
+                        <xs:element name="campeonatos" type="xs:string"/>
+                        <xs:element name="tecnicas" type="xs:string"/>
+                        <xs:element name="aplicaciones" type="xs:string"/>
+                        <xs:element name="aplicacion_Tecnica" type="xs:string"/>
+                        <xs:element name="demo_libre" type="xs:string"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
 
 
 
-            <xs:element name="CinturonNegroCuartoDan">
+            <xs:element name="cinturonNegroCuartoDan">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="Kata" type="xs:string"/>
-                        <xs:element name="Kumite" type="xs:string"/>
-                        <xs:element name="Coloquio" type="xs:string"/>
-                        <xs:element name="Aplicacion_Tecnica" type="xs:string"/>
-                        <xs:element name="Demo_libre" type="xs:string"/>
+                        <xs:element name="kata" type="xs:string"/>
+                        <xs:element name="kumite" type="xs:string"/>
+                        <xs:element name="coloquio" type="xs:string"/>
+                        <xs:element name="aplicacion_Tecnica" type="xs:string"/>
+                        <xs:element name="demo_libre" type="xs:string"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
