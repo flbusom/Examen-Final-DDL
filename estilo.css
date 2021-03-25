@@ -1,0 +1,60 @@
+resultados {
+    display: table;
+  border-spacing: 10px;
+  border: black 1px solid;
+  font-size: 120%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 50%;
+    
+    
+}
+
+aspirate{
+    display: table;
+  border-spacing: 10px;
+  border: black 1px solid;
+  font-size: 120%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+
+nombre{
+    display: table;
+    border-spacing: 10px;
+    border: black 1px solid;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+
+
+apellidos{
+     display: table;
+  border-spacing: 10px;
+  border: black 1px solid;
+  font-size: 120%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+
+meritos{
+    display: table;
+    border-spacing: 10px;
+    border: black 1px solid;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
