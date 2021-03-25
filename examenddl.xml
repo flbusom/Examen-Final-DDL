@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="estilo.css"?>
 
-<examenddl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="examenddl.xsd">
+<examen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="examenddl.xsd">
+
+
+
+    <examen>
+        <id_aspirante>342</id_aspirante>
+    </examen>
 
 
     <resultados>
@@ -205,4 +211,4 @@
 
 
 
-</examenddl>
+</examen>

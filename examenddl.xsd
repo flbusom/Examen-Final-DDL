@@ -2,18 +2,30 @@
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
 
+            <xs:element name="examen" type="tipoexamen" />
+                <xs:complexType name="tipoexamen">
+                    <xs:sequence>
+                        <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
 
-            <xs:element name="resultados">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="id_aspirante" type="xs:integer"/>
-                        </xs:sequence>
-                    </xs:complexType>
-            </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
 
 
-            <xs:element name="aspirante">
-                <xs:complexType>
+
+            <xs:element name="resultados" type="tiporesultado"/>
+                <xs:complexType name="tiporesultado">
+                    <xs:sequence>
+                        <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
+                    </xs:sequence>   
+                </xs:complexType>
+            
+
+
+
+
+           <xs:element name="aspirante" type="tipoaspirante"/>
+
+                <xs:complexType name="tipoaspirante">
                     <xs:sequence>
                         <xs:element name="id_aspirante" type="xs:integer"/>
                         <xs:element name="nombre" type="xs:string"/>
@@ -31,64 +43,64 @@
                         <xs:element name="fotoCarnetGrados" type="xs:string"/>
                     </xs:sequence>
                 </xs:complexType>
-            </xs:element>
+            
 
 
 
-            <xs:element name="meritos">
-                <xs:complexType>
+            <xs:element name="meritos" type="tipomeritos"/>
+                <xs:complexType name="tipomeritos">
                     <xs:sequence>
-                    <xs:element name="id_aspirante" type="xs:integer"/>
-                    <xs:element name="edad_aspirante" type="xs:integer"/>
-                    <xs:element name="licenciaActualizada" type="xs:boolean"/>
-                    <xs:element name="trabajoEscrito" type="xs:boolean"/>
+                        <xs:element name="id_aspirante" type="xs:integer"/>
+                        <xs:element name="edad_aspirante" type="xs:integer"/>
+                        <xs:element name="licenciaActualizada" type="xs:boolean"/>
+                        <xs:element name="trabajoEscrito" type="xs:boolean"/>
                     </xs:sequence>
                  </xs:complexType>
-            </xs:element>
+           
 
 
 
-            <xs:element name="convalidacion_Grados">
-            <xs:complexType>
+            <xs:element name="convalidacion_Grados" type="tipoconvalidacion"/>
+                <xs:complexType name="tipoconvalidacion">
                     <xs:sequence>
-                    <xs:element name="id_aspirante" type="xs:integer"/>
-                     </xs:sequence>
-            </xs:complexType>
-            </xs:element>
-
-
-
-            <xs:element name="requisitosAspirantes">
-            <xs:complexType>
-                <xs:sequence>
-                <xs:element name="solicitudHasta3Dan" type="xs:boolean"/>
-                <xs:element name="danySuperiorCurriculum" type="xs:boolean"/>
-                </xs:sequence>
-            </xs:complexType>
-            </xs:element>        
-
-
-
-            <xs:element name="dispensaMedica">
-                <xs:complexType>
-                    <xs:sequence>
-                    <xs:element name="id_aspirante" type="xs:integer"/>
+                        <xs:element name="id_aspirante" type="xs:integer"/>
                     </xs:sequence>
-            </xs:complexType>
-            </xs:element>
+                </xs:complexType>
+            
 
 
 
-            <xs:element name="jueces">
-                <xs:complexType>
+            <xs:element name="requisitosAspirantes" type="tiporequisitos"/>
+                <xs:complexType name="tiporequisitos">
                     <xs:sequence>
-                    <xs:element name="id_aspirante" type="xs:integer"/>
-                    <xs:element name="nombre" type="xs:string"/>
-                    <xs:element name="apellidos" type="xs:string"/>
-                    <xs:element name="diplomaJuez" type="xs:boolean"/>
+                        <xs:element name="solicitudHasta3Dan" type="xs:boolean"/>
+                        <xs:element name="danySuperiorCurriculum" type="xs:boolean"/>
                     </xs:sequence>
-            </xs:complexType>
-            </xs:element>
+                </xs:complexType>
+                  
+
+
+
+            <xs:element name="dispensaMedica" type="tipodispensa"/>
+                <xs:complexType name="tipodispensa">
+                    <xs:sequence>
+                        <xs:element name="id_aspirante" type="xs:integer"/>
+                    </xs:sequence>
+                </xs:complexType>
+           
+
+
+
+            <xs:element name="jueces" type="tipojueces"/>
+                <xs:complexType name="tipojueces"> 
+                    <xs:sequence>
+                        <xs:element name="id_aspirante" type="xs:integer"/>
+                        <xs:element name="nombre" type="xs:string"/>
+                        <xs:element name="apellidos" type="xs:string"/>
+                        <xs:element name="diplomaJuez" type="xs:boolean"/>
+                    </xs:sequence>
+                </xs:complexType>
+            
 
 
 
@@ -247,6 +259,6 @@
                 </xs:complexType>
             </xs:element>
 
-
+         
 
 </xs:schema>
