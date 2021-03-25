@@ -1,60 +1,59 @@
+
 resultados {
-    display: table;
-  border-spacing: 10px;
-  border: black 1px solid;
-  font-size: 120%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  width: 50%;
-    
-    
-}
-
-aspirate{
-    display: table;
-  border-spacing: 10px;
-  border: black 1px solid;
-  font-size: 120%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  width: 50%;
-}
-
-
-nombre{
-    display: table;
-    border-spacing: 10px;
+    background-color: white;
     border: black 1px solid;
-    font-size: 120%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 50%;
+    display: table-cell;
+    padding: 10px;
+  
 }
 
 
-
-apellidos{
-     display: table;
-  border-spacing: 10px;
-  border: black 1px solid;
-  font-size: 120%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  width: 50%;
-}
-
-
-meritos{
-    display: table;
-    border-spacing: 10px;
+aspirate, id_aspirante, nombre, apellidos, DNI, telefono, direccion, fechanacimiento, Dan, cinturon, fecha_ingreso_Dan, 
+fotoAspirante, tiempo_Dan_Anterior, fotoDNI, fotoCarnetGrados{
+    background-color: #F6FEAC;
     border: black 1px solid;
-    font-size: 120%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 50%;
+    display: table-cell;
+    padding: 10px;
+}
+
+
+
+meritos, id_aspirante, edad_aspirante, licenciaActualizada, trabajoEscrito {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
+}
+
+
+jueces, id_aspirante, nombre, apellidos, diplomaJuez {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
+}
+
+convalidacion_Grados {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
+}
+
+
+requisitosAspirantes {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
+}
+
+
+
+
+criterio_Valoracion {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
 }
