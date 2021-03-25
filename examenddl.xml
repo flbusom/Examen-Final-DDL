@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
-
 <examenddl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="examenddl.xsd">
+
 
     <resultados>
         <id_aspirante>001</id_aspirante>
 
     </resultados>
+
+
 
     <aspirante>
         <id_aspirante>002</id_aspirante>
@@ -27,6 +28,8 @@
 
     </aspirante>
 
+
+
     <meritos>
         <id_aspirante>003</id_aspirante>
         <edad_aspirante>29</edad_aspirante>
@@ -34,7 +37,6 @@
         <trabajoEscrito>false</trabajoEscrito>
 
     </meritos>
-
 
 
 
@@ -46,13 +48,11 @@
 
 
 
-
     <requisitosAspirantes>
         <solicitudHasta3Dan>true</solicitudHasta3Dan>
         <danySuperiorCurriculum>true</danySuperiorCurriculum>
 
     </requisitosAspirantes>
-
 
 
 
@@ -95,13 +95,10 @@
 
 
 
-
     <abonarCuota>
         <id_aspirante>006</id_aspirante>
 
-
     </abonarCuota>
-
 
 
 
@@ -125,7 +122,6 @@
 
 
 
-
     <hasta3erDan>
         <tecnicas></tecnicas>
         <kata></kata>
@@ -134,7 +130,6 @@
 
 
     </hasta3erDan>
-
 
 
 
@@ -148,7 +143,6 @@
 
 
     </cinturonNegro>
-
 
 
 
@@ -184,7 +178,6 @@
 
 
 
-
     <cinturonNegroTercerDan>
         <variaciones_Tecnica></variaciones_Tecnica>
         <teoria></teoria>
@@ -200,7 +193,6 @@
 
 
 
-
     <cinturonNegroCuartoDan>
         <kata></kata>
         <kumite></kumite>
@@ -209,7 +201,6 @@
         <demo_libre></demo_libre>
 
     </cinturonNegroCuartoDan>
-
 
 
 

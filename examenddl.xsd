@@ -69,7 +69,6 @@
 
 
 
-
             <xs:element name="dispensaMedica">
                 <xs:complexType>
                     <xs:sequence>
@@ -104,7 +103,6 @@
                 </xs:sequence>
              </xs:complexType>
             </xs:element>
-        
         
         
         
@@ -153,8 +151,6 @@
 
 
 
-
-
             <xs:element name="hasta3erDan">
                 <xs:complexType>
                      <xs:sequence>
@@ -180,7 +176,6 @@
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
-
 
 
 
@@ -251,8 +246,6 @@
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
-
-
 
 
 
