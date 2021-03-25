@@ -1,264 +1,264 @@
 <?xml version="1.0"?>
 
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
 
-            <xs:element name="examen" type="tipoexamen" />
-                <xs:complexType name="tipoexamen">
-                    <xs:sequence>
-                        <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
+            <xsd:element name="examen" type="tipoexamen" />
+                <xsd:complexType name="tipoexamen">
+                    <xsd:sequence>
+                        <xsd:element name="id_aspirante" type="xsd:integer" maxOccurs="unbounded"/>
 
-                    </xs:sequence>
-                </xs:complexType>
+                    </xsd:sequence>
+                </xsd:complexType>
 
 
 
-            <xs:element name="resultados" type="tiporesultado"/>
-                <xs:complexType name="tiporesultado">
-                    <xs:sequence>
-                        <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
-                    </xs:sequence>   
-                </xs:complexType>
+            <xsd:element name="resultados" type="tiporesultado"/>
+                <xsd:complexType name="tiporesultado">
+                    <xsd:sequence>
+                        <xsd:element name="id_aspirante" type="xsd:integer" maxOccurs="unbounded"/>
+                    </xsd:sequence>   
+                </xsd:complexType>
             
 
 
 
 
-           <xs:element name="aspirante" type="tipoaspirante"/>
+           <xsd:element name="aspirante" type="tipoaspirante"/>
 
-                <xs:complexType name="tipoaspirante">
-                    <xs:sequence>
-                        <xs:element name="id_aspirante" type="xs:integer"/>
-                        <xs:element name="nombre" type="xs:string"/>
-                        <xs:element name="apellidos" type="xs:string"/>
-                        <xs:element name="DNI" type="xs:string"/>
-                        <xs:element name="telefono" type="xs:string"/>
-                        <xs:element name="direccion" type="xs:string"/>
-                        <xs:element name="fechanacimiento" type="xs:string"/>
-                        <xs:element name="Dan" type="xs:string"/>
-                        <xs:element name="cinturon" type="xs:string"/>
-                        <xs:element name="fecha_ingreso_Dan" type="xs:string"/>
-                        <xs:element name="fotoAspirante" type="xs:string"/>
-                        <xs:element name="tiempo_Dan_Anterior" type="xs:string"/>
-                        <xs:element name="fotoDNI" type="xs:string"/>
-                        <xs:element name="fotoCarnetGrados" type="xs:string"/>
-                    </xs:sequence>
-                </xs:complexType>
+                <xsd:complexType name="tipoaspirante">
+                    <xsd:sequence>
+                        <xsd:element name="id_aspirante" type="xsd:integer"/>
+                        <xsd:element name="nombre" type="xsd:string"/>
+                        <xsd:element name="apellidos" type="xsd:string"/>
+                        <xsd:element name="DNI" type="xsd:string"/>
+                        <xsd:element name="telefono" type="xsd:string"/>
+                        <xsd:element name="direccion" type="xsd:string"/>
+                        <xsd:element name="fechanacimiento" type="xsd:string"/>
+                        <xsd:element name="Dan" type="xsd:string"/>
+                        <xsd:element name="cinturon" type="xsd:string"/>
+                        <xsd:element name="fecha_ingreso_Dan" type="xsd:string"/>
+                        <xsd:element name="fotoAspirante" type="xsd:string"/>
+                        <xsd:element name="tiempo_Dan_Anterior" type="xsd:string"/>
+                        <xsd:element name="fotoDNI" type="xsd:string"/>
+                        <xsd:element name="fotoCarnetGrados" type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
             
 
 
 
-            <xs:element name="meritos" type="tipomeritos"/>
-                <xs:complexType name="tipomeritos">
-                    <xs:sequence>
-                        <xs:element name="id_aspirante" type="xs:integer"/>
-                        <xs:element name="edad_aspirante" type="xs:integer"/>
-                        <xs:element name="licenciaActualizada" type="xs:boolean"/>
-                        <xs:element name="trabajoEscrito" type="xs:boolean"/>
-                    </xs:sequence>
-                 </xs:complexType>
+            <xsd:element name="meritos" type="tipomeritos"/>
+                <xsd:complexType name="tipomeritos">
+                    <xsd:sequence>
+                        <xsd:element name="id_aspirante" type="xsd:integer"/>
+                        <xsd:element name="edad_aspirante" type="xsd:integer"/>
+                        <xsd:element name="licenciaActualizada" type="xsd:boolean"/>
+                        <xsd:element name="trabajoEscrito" type="xsd:boolean"/>
+                    </xsd:sequence>
+                 </xsd:complexType>
            
 
 
 
-            <xs:element name="convalidacion_Grados" type="tipoconvalidacion"/>
-                <xs:complexType name="tipoconvalidacion">
-                    <xs:sequence>
-                        <xs:element name="id_aspirante" type="xs:integer"/>
-                    </xs:sequence>
-                </xs:complexType>
+            <xsd:element name="convalidacion_Grados" type="tipoconvalidacion"/>
+                <xsd:complexType name="tipoconvalidacion">
+                    <xsd:sequence>
+                        <xsd:element name="id_aspirante" type="xsd:integer"/>
+                    </xsd:sequence>
+                </xsd:complexType>
             
 
 
 
-            <xs:element name="requisitosAspirantes" type="tiporequisitos"/>
-                <xs:complexType name="tiporequisitos">
-                    <xs:sequence>
-                        <xs:element name="solicitudHasta3Dan" type="xs:boolean"/>
-                        <xs:element name="danySuperiorCurriculum" type="xs:boolean"/>
-                    </xs:sequence>
-                </xs:complexType>
+            <xsd:element name="requisitosAspirantes" type="tiporequisitos"/>
+                <xsd:complexType name="tiporequisitos">
+                    <xsd:sequence>
+                        <xsd:element name="solicitudHasta3Dan" type="xsd:boolean"/>
+                        <xsd:element name="danySuperiorCurriculum" type="xsd:boolean"/>
+                    </xsd:sequence>
+                </xsd:complexType>
                   
 
 
 
-            <xs:element name="dispensaMedica" type="tipodispensa"/>
-                <xs:complexType name="tipodispensa">
-                    <xs:sequence>
-                        <xs:element name="id_aspirante" type="xs:integer"/>
-                    </xs:sequence>
-                </xs:complexType>
+            <xsd:element name="dispensaMedica" type="tipodispensa"/>
+                <xsd:complexType name="tipodispensa">
+                    <xsd:sequence>
+                        <xsd:element name="id_aspirante" type="xsd:integer"/>
+                    </xsd:sequence>
+                </xsd:complexType>
            
 
 
 
-            <xs:element name="jueces" type="tipojueces"/>
-                <xs:complexType name="tipojueces"> 
-                    <xs:sequence>
-                        <xs:element name="id_aspirante" type="xs:integer"/>
-                        <xs:element name="nombre" type="xs:string"/>
-                        <xs:element name="apellidos" type="xs:string"/>
-                        <xs:element name="diplomaJuez" type="xs:boolean"/>
-                    </xs:sequence>
-                </xs:complexType>
+            <xsd:element name="jueces" type="tipojueces"/>
+                <xsd:complexType name="tipojueces"> 
+                    <xsd:sequence>
+                        <xsd:element name="id_aspirante" type="xsd:integer"/>
+                        <xsd:element name="nombre" type="xsd:string"/>
+                        <xsd:element name="apellidos" type="xsd:string"/>
+                        <xsd:element name="diplomaJuez" type="xsd:boolean"/>
+                    </xsd:sequence>
+                </xsd:complexType>
             
 
 
 
-            <xs:element name="criterio_Valoracion" type="tipocriterio"/>
-                <xs:complexType name="tipocriterio"> 
-                    <xs:sequence>
-                        <xs:element name="indumentaria" type="xs:integer"/>
-                        <xs:element name="aseoPersonal" type="xs:integer"/>
-                        <xs:element name="ejecucionTecnica" type="xs:integer"/>
-                        <xs:element name="valores" type="xs:integer"/>
-                        <xs:element name="respuestas" type="xs:integer"/>
-                    </xs:sequence>
-                 </xs:complexType>
+            <xsd:element name="criterio_Valoracion" type="tipocriterio"/>
+                <xsd:complexType name="tipocriterio"> 
+                    <xsd:sequence>
+                        <xsd:element name="indumentaria" type="xsd:integer"/>
+                        <xsd:element name="aseoPersonal" type="xsd:integer"/>
+                        <xsd:element name="ejecucionTecnica" type="xsd:integer"/>
+                        <xsd:element name="valores" type="xsd:integer"/>
+                        <xsd:element name="respuestas" type="xsd:integer"/>
+                    </xsd:sequence>
+                 </xsd:complexType>
             
         
         
         
-            <xs:element name="tribunal" type="tipotribunal"/>
-                <xs:complexType name="tipotribunal">
-                    <xs:sequence>
-                        <xs:element name="numerojueces" type="xs:integer"/>
-                        <xs:element name="calificacion_final" type="xs:integer"/>
-                    </xs:sequence>
-                </xs:complexType>
+            <xsd:element name="tribunal" type="tipotribunal"/>
+                <xsd:complexType name="tipotribunal">
+                    <xsd:sequence>
+                        <xsd:element name="numerojueces" type="xsd:integer"/>
+                        <xsd:element name="calificacion_final" type="xsd:integer"/>
+                    </xsd:sequence>
+                </xsd:complexType>
            
 
 
 
-            <xs:element name="abonarCuota" type="tipoabonar"/>
-                <xs:complexType name="tipoabonar">
-                    <xs:sequence>
-                        <xs:element name="id_aspirante" type="xs:integer"/>
-                    </xs:sequence>
-                </xs:complexType>
+            <xsd:element name="abonarCuota" type="tipoabonar"/>
+                <xsd:complexType name="tipoabonar">
+                    <xsd:sequence>
+                        <xsd:element name="id_aspirante" type="xsd:integer"/>
+                    </xsd:sequence>
+                </xsd:complexType>
           
 
 
 
-            <xs:element name="suspenderExamen" type="tiposuspender"/>
-                <xs:complexType name="tiposuspender">
-                    <xs:sequence>
-                        <xs:element name="id_aspirante" type="xs:integer"/>
-                        <xs:element name="suspenderParcial" type="xs:boolean"/>
-                        <xs:element name="suspenderTotal" type="xs:boolean"/>
-                        <xs:element name="suspenderSegundaFase" type="xs:boolean"/>
-                    </xs:sequence>
-                </xs:complexType>
+            <xsd:element name="suspenderExamen" type="tiposuspender"/>
+                <xsd:complexType name="tiposuspender">
+                    <xsd:sequence>
+                        <xsd:element name="id_aspirante" type="xsd:integer"/>
+                        <xsd:element name="suspenderParcial" type="xsd:boolean"/>
+                        <xsd:element name="suspenderTotal" type="xsd:boolean"/>
+                        <xsd:element name="suspenderSegundaFase" type="xsd:boolean"/>
+                    </xsd:sequence>
+                </xsd:complexType>
            
 
 
 
-            <xs:element name="quintoDanySuperior" type="tipoquintodan"/>
-                <xs:complexType name="tipoquintodan">
-                    <xs:sequence>
-                        <xs:element name="kata" type="xs:string"/>
-                        <xs:element name="coloquio" type="xs:string"/>
-                    </xs:sequence>
-                </xs:complexType>
+            <xsd:element name="quintoDanySuperior" type="tipoquintodan"/>
+                <xsd:complexType name="tipoquintodan">
+                    <xsd:sequence>
+                        <xsd:element name="kata" type="xsd:string"/>
+                        <xsd:element name="coloquio" type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
             
 
 
 
-            <xs:element name="hasta3erDan" type="tipohasta3"/>
-                <xs:complexType name="tipohasta3">
-                     <xs:sequence>
-                        <xs:element name="tecnicas" type="xs:string"/>
-                        <xs:element name="kata" type="xs:string"/>
-                        <xs:element name="kumite" type="xs:string"/>
-                        <xs:element name="campeonatos" type="xs:string"/>
-                    </xs:sequence>
-                </xs:complexType>
+            <xsd:element name="hasta3erDan" type="tipohasta3"/>
+                <xsd:complexType name="tipohasta3">
+                     <xsd:sequence>
+                        <xsd:element name="tecnicas" type="xsd:string"/>
+                        <xsd:element name="kata" type="xsd:string"/>
+                        <xsd:element name="kumite" type="xsd:string"/>
+                        <xsd:element name="campeonatos" type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
             
 
 
 
-            <xs:element name="cinturonNegro" type="tipocinturonnegro"/>
-                <xs:complexType name="tipocinturonnegro">
-                    <xs:sequence>
-                        <xs:element name="tecnica_Directa" type="xs:string"/>
-                        <xs:element name="tecnica_Circulares" type="xs:string"/>
-                        <xs:element name="tecnica_Pierna" type="xs:string"/>
-                        <xs:element name="teoria" type="xs:string"/>
-                        <xs:element name="kata" type="xs:string"/>
-                        <xs:element name="kumite" type="xs:string"/>
-                    </xs:sequence>
-                </xs:complexType>
+            <xsd:element name="cinturonNegro" type="tipocinturonnegro"/>
+                <xsd:complexType name="tipocinturonnegro">
+                    <xsd:sequence>
+                        <xsd:element name="tecnica_Directa" type="xsd:string"/>
+                        <xsd:element name="tecnica_Circulares" type="xsd:string"/>
+                        <xsd:element name="tecnica_Pierna" type="xsd:string"/>
+                        <xsd:element name="teoria" type="xsd:string"/>
+                        <xsd:element name="kata" type="xsd:string"/>
+                        <xsd:element name="kumite" type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
            
 
 
 
-            <xs:element name="cinturonNegroPrimerDan" type="tipocinturonnegro1dan"/>
-                <xs:complexType name="tipocinturonnegro1dan">
-                    <xs:sequence>
-                        <xs:element name="tecnica_Directa" type="xs:string"/>
-                        <xs:element name="tecnica_Pierna" type="xs:string"/>
-                        <xs:element name="tecnica_DirectaIndirecta" type="xs:string"/>
-                        <xs:element name="tecnica_Combinada" type="xs:string"/>
-                        <xs:element name="teoria" type="xs:string"/>
-                        <xs:element name="kata" type="xs:string"/>
-                        <xs:element name="kumite" type="xs:string"/>
-                        <xs:element name="aplicacion_Tecnica" type="xs:string"/>
-                    </xs:sequence>
-                </xs:complexType>
+            <xsd:element name="cinturonNegroPrimerDan" type="tipocinturonnegro1dan"/>
+                <xsd:complexType name="tipocinturonnegro1dan">
+                    <xsd:sequence>
+                        <xsd:element name="tecnica_Directa" type="xsd:string"/>
+                        <xsd:element name="tecnica_Pierna" type="xsd:string"/>
+                        <xsd:element name="tecnica_DirectaIndirecta" type="xsd:string"/>
+                        <xsd:element name="tecnica_Combinada" type="xsd:string"/>
+                        <xsd:element name="teoria" type="xsd:string"/>
+                        <xsd:element name="kata" type="xsd:string"/>
+                        <xsd:element name="kumite" type="xsd:string"/>
+                        <xsd:element name="aplicacion_Tecnica" type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
             
 
 
 
-            <xs:element name="cinturonNegroSegundoDan" type="tipocinturonnegro2dan"/>
-                <xs:complexType name="tipocinturonnegro2dan">
-                    <xs:sequence>
-                        <xs:element name="tecnica_Base" type="xs:string"/>
-                        <xs:element name="tecnica_Directa" type="xs:string"/>
-                        <xs:element name="tecnica_DirectaIndirecta" type="xs:string"/>
-                        <xs:element name="tecnica_Pierna" type="xs:string"/>
-                        <xs:element name="tecnica_Combinada" type="xs:string"/>
-                        <xs:element name="teoria" type="xs:string"/>
-                        <xs:element name="kata" type="xs:string"/>
-                        <xs:element name="kumite" type="xs:string"/>
-                        <xs:element name="campeonatos" type="xs:string"/>
-                        <xs:element name="tecnicas" type="xs:string"/>
-                        <xs:element name="aplicacion_Tecnica" type="xs:string"/>
-                        <xs:element name="demo_libre" type="xs:string"/>
-                    </xs:sequence>
-                </xs:complexType>
+            <xsd:element name="cinturonNegroSegundoDan" type="tipocinturonnegro2dan"/>
+                <xsd:complexType name="tipocinturonnegro2dan">
+                    <xsd:sequence>
+                        <xsd:element name="tecnica_Base" type="xsd:string"/>
+                        <xsd:element name="tecnica_Directa" type="xsd:string"/>
+                        <xsd:element name="tecnica_DirectaIndirecta" type="xsd:string"/>
+                        <xsd:element name="tecnica_Pierna" type="xsd:string"/>
+                        <xsd:element name="tecnica_Combinada" type="xsd:string"/>
+                        <xsd:element name="teoria" type="xsd:string"/>
+                        <xsd:element name="kata" type="xsd:string"/>
+                        <xsd:element name="kumite" type="xsd:string"/>
+                        <xsd:element name="campeonatos" type="xsd:string"/>
+                        <xsd:element name="tecnicas" type="xsd:string"/>
+                        <xsd:element name="aplicacion_Tecnica" type="xsd:string"/>
+                        <xsd:element name="demo_libre" type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
             
 
 
 
-            <xs:element name="cinturonNegroTercerDan" type="tipocinturonnegro3dan"/>
-                <xs:complexType name="tipocinturonnegro3dan">
-                    <xs:sequence>
-                        <xs:element name="variaciones_Tecnica" type="xs:string"/>
-                        <xs:element name="teoria" type="xs:string"/>
-                        <xs:element name="kata" type="xs:string"/>
-                        <xs:element name="kumite" type="xs:string"/>
-                        <xs:element name="campeonatos" type="xs:string"/>
-                        <xs:element name="tecnicas" type="xs:string"/>
-                        <xs:element name="aplicaciones" type="xs:string"/>
-                        <xs:element name="aplicacion_Tecnica" type="xs:string"/>
-                        <xs:element name="demo_libre" type="xs:string"/>
-                    </xs:sequence>
-                </xs:complexType>
+            <xsd:element name="cinturonNegroTercerDan" type="tipocinturonnegro3dan"/>
+                <xsd:complexType name="tipocinturonnegro3dan">
+                    <xsd:sequence>
+                        <xsd:element name="variaciones_Tecnica" type="xsd:string"/>
+                        <xsd:element name="teoria" type="xsd:string"/>
+                        <xsd:element name="kata" type="xsd:string"/>
+                        <xsd:element name="kumite" type="xsd:string"/>
+                        <xsd:element name="campeonatos" type="xsd:string"/>
+                        <xsd:element name="tecnicas" type="xsd:string"/>
+                        <xsd:element name="aplicaciones" type="xsd:string"/>
+                        <xsd:element name="aplicacion_Tecnica" type="xsd:string"/>
+                        <xsd:element name="demo_libre" type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
             
 
 
 
-            <xs:element name="cinturonNegroCuartoDan" type="tipocinturonnegro4dan"/>
-                <xs:complexType name="tipocinturonnegro4dan">
-                    <xs:sequence>
-                        <xs:element name="kata" type="xs:string"/>
-                        <xs:element name="kumite" type="xs:string"/>
-                        <xs:element name="coloquio" type="xs:string"/>
-                        <xs:element name="aplicacion_Tecnica" type="xs:string"/>
-                        <xs:element name="demo_libre" type="xs:string"/>
-                    </xs:sequence>
-                </xs:complexType>
+            <xsd:element name="cinturonNegroCuartoDan" type="tipocinturonnegro4dan"/>
+                <xsd:complexType name="tipocinturonnegro4dan">
+                    <xsd:sequence>
+                        <xsd:element name="kata" type="xsd:string"/>
+                        <xsd:element name="kumite" type="xsd:string"/>
+                        <xsd:element name="coloquio" type="xsd:string"/>
+                        <xsd:element name="aplicacion_Tecnica" type="xsd:string"/>
+                        <xsd:element name="demo_libre" type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
             
 
          
 
-</xs:schema>
+</xsd:schema>
