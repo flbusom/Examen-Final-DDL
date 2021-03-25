@@ -5,7 +5,7 @@
             <xsd:element name="examen" type="tipoexamen1" />
                 <xsd:complexType name="tipoexamen1">
                     <xsd:sequence>
-                        <xsd:element name="examen" type="tipoexamen" maxOccurs="unbounded"/>
+                        
                         <xsd:element name="resultados" type="tiporesultado" maxOccurs="unbounded"/>
                         <xsd:element name="aspirante" type="tipoaspirante" maxOccurs="unbounded"/>
                         <xsd:element name="meritos" type="tipomeritos" maxOccurs="unbounded"/>
@@ -27,13 +27,6 @@
                          
                         
                     </xsd:sequence>
-                </xsd:complexType>
-
-
-                <xsd:complexType name="tipoexamen">
-                    <xsd:sequence>
-                        <xsd:element name="id_aspirante" type="xsd:integer" maxOccurs="unbounded"/>
-                    </xsd:sequence>   
                 </xsd:complexType>
 
 
