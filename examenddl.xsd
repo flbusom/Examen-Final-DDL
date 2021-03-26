@@ -24,8 +24,7 @@
                         <xsd:element name="cinturonNegroSegundoDan" type="tipo2dan" maxOccurs="unbounded"/>
                         <xsd:element name="cinturonNegroTercerDan" type="tipo3dan" maxOccurs="unbounded"/>
                         <xsd:element name="cinturonNegroCuartoDan" type="tipo4dan" maxOccurs="unbounded"/>
-                         
-                        
+                          
                     </xsd:sequence>
                 </xsd:complexType>
 
