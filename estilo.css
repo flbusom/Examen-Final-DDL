@@ -1,6 +1,6 @@
 examen {
     background-color: #DDFFFA;
-    margin-left: 2%;
+    margin-left: 2%;  
 }
 
 
@@ -47,7 +47,6 @@ meritos, id_aspirante, edad_aspirante, licenciaActualizada, trabajoEscrito {
     display: table-cell;
     padding: 10px;
     margin-top: 40%;
-    text-align: center;
 }
 
 

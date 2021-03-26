@@ -146,43 +146,43 @@
         <tecnica_Pierna>kakiwake</tecnica_Pierna>
         <tecnica_DirectaIndirecta>HIZA</tecnica_DirectaIndirecta>
         <tecnica_Combinada>FUMIKOMI</tecnica_Combinada>
-        <teoria></teoria>
-        <kata></kata>
-        <kumite></kumite>
-        <aplicacion_Tecnica></aplicacion_Tecnica>
+        <teoria>patada</teoria>
+        <kata>pareja</kata>
+        <kumite>combate</kumite>
+        <aplicacion_Tecnica>perfecta</aplicacion_Tecnica>
 
     </cinturonNegroPrimerDan>
 
 
 
     <cinturonNegroSegundoDan>
-        <tecnica_Base></tecnica_Base>
-        <tecnica_Directa></tecnica_Directa>
-        <tecnica_DirectaIndirecta></tecnica_DirectaIndirecta>
-        <tecnica_Pierna></tecnica_Pierna>
-        <tecnica_Combinada></tecnica_Combinada>
-        <teoria></teoria>
-        <kata></kata>
-        <kumite></kumite>
-        <campeonatos></campeonatos>
-        <tecnicas></tecnicas>
-        <aplicacion_Tecnica></aplicacion_Tecnica>
-        <demo_libre></demo_libre>
+        <tecnica_Base>Karate</tecnica_Base>
+        <tecnica_Directa>seryuto</tecnica_Directa>
+        <tecnica_DirectaIndirecta>HIZA</tecnica_DirectaIndirecta>
+        <tecnica_Pierna>kakiwake</tecnica_Pierna>
+        <tecnica_Combinada>FUMIKOMI</tecnica_Combinada>
+        <teoria>brazos</teoria>
+        <kata>pareja</kata>
+        <kumite>combate</kumite>
+        <campeonatos>Catalunya</campeonatos>
+        <tecnicas>patadas</tecnicas>
+        <aplicacion_Tecnica>correcta</aplicacion_Tecnica>
+        <demo_libre>si</demo_libre>
 
     </cinturonNegroSegundoDan>
 
 
 
     <cinturonNegroTercerDan>
-        <variaciones_Tecnica></variaciones_Tecnica>
-        <teoria></teoria>
-        <kata></kata>
-        <kumite></kumite>
-        <campeonatos></campeonatos>
-        <tecnicas></tecnicas>
-        <aplicaciones></aplicaciones>
-        <aplicacion_Tecnica></aplicacion_Tecnica>
-        <demo_libre></demo_libre>
+        <variaciones_Tecnica>Kárate mental</variaciones_Tecnica>
+        <teoria>patadas</teoria>
+        <kata>pareja</kata>
+        <kumite>combate</kumite>
+        <campeonatos>España</campeonatos>
+        <tecnicas>patadas</tecnicas>
+        <aplicaciones>mejorar</aplicaciones>
+        <aplicacion_Tecnica>correcta</aplicacion_Tecnica>
+        <demo_libre>si</demo_libre>
 
     </cinturonNegroTercerDan>
 
@@ -191,9 +191,9 @@
     <cinturonNegroCuartoDan>
         <kata>seryuto</kata>
         <kumite>kakiwake</kumite>
-        <coloquio></coloquio>
-        <aplicacion_Tecnica></aplicacion_Tecnica>
-        <demo_libre></demo_libre>
+        <coloquio>Kárate mental</coloquio>
+        <aplicacion_Tecnica>correcta</aplicacion_Tecnica>
+        <demo_libre>si</demo_libre>
 
     </cinturonNegroCuartoDan>
 
