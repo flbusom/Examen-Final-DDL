@@ -71,7 +71,6 @@
         <apellidos>Garri Moreras</apellidos>
         <diplomaJuez>true</diplomaJuez>
 
-
     </jueces>
 
 
@@ -91,8 +90,6 @@
         <numerojueces>3</numerojueces>
         <calificacion_final>7</calificacion_final>
 
-        
-
     </tribunal>
 
 
@@ -110,15 +107,13 @@
         <suspenderTotal>false</suspenderTotal>
         <suspenderSegundaFase>false</suspenderSegundaFase>
 
-
     </suspenderexamen>
 
 
 
     <quintodanysuperior>
-        <kata></kata>
-        <coloquio></coloquio>
-
+        <kata>solo</kata>
+        <coloquio>solo</coloquio>
 
     </quintodanysuperior>
 
@@ -129,7 +124,6 @@
         <kata></kata>
         <kumite></kumite>
         <campeonatos></campeonatos>
-
 
     </hasta3dan>
 
@@ -142,7 +136,6 @@
         <teoria></teoria>
         <kata></kata>
         <kumite></kumite>
-
 
     </cinturonnegro>
 
