@@ -1,15 +1,16 @@
 body {
     background-color: #CAFCF5;
     font-size: 300%;
+    color: black;
     text-align: center;
     margin-left: auto;
-    margin-top: 25%;
+    margin-top: 20%;
 }
 
 footer {
     text-align: center;
-    margin-top: 32%;
-    font-size: 100%;
+    margin-top: 25%;
+    font-size: 80%;
 
 }
 

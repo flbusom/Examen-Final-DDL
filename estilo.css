@@ -1,10 +1,14 @@
+examen {
+    background-color: #DDFFFA;
+}
+
 
 resultados {
     background-color: white;
     border: black 1px solid;
     display: table-cell;
     padding: 10px;
-  
+    text-align: center;
 }
 
 
@@ -14,6 +18,8 @@ fotoAspirante, tiempo_Dan_Anterior, fotoDNI, fotoCarnetGrados{
     border: black 1px solid;
     display: table-cell;
     padding: 10px;
+    margin-top: 30%;
+    text-align: center;
 }
 
 
@@ -23,6 +29,8 @@ meritos, id_aspirante, edad_aspirante, licenciaActualizada, trabajoEscrito {
     border: black 1px solid;
     display: table-cell;
     padding: 10px;
+    margin-top: 40%;
+    text-align: center;
 }
 
 
@@ -31,9 +39,10 @@ jueces, id_aspirante, nombre, apellidos, diplomaJuez {
     border: black 1px solid;
     display: table-cell;
     padding: 10px;
+    text-align: center;
 }
 
-convalidacion_Grados {
+convalidacion_Grados, id_aspirante {
     background-color: white;
     border: black 1px solid;
     display: table-cell;
@@ -41,7 +50,7 @@ convalidacion_Grados {
 }
 
 
-requisitosAspirantes {
+requisitosAspirantes, solicitudHasta3Dan, danySuperiorCurriculum {
     background-color: white;
     border: black 1px solid;
     display: table-cell;
@@ -50,8 +59,78 @@ requisitosAspirantes {
 
 
 
+dispensamedica, id_aspirante {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
+}
 
-criterio_Valoracion {
+
+criterio_Valoracion, indumentaria, aseoPersonal, ejecucionTecnica, valores, respuestas {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
+}
+
+
+tribunal, numerojueces, calificacion_final {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
+}
+
+
+abonarcuota, id_aspirante {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
+}
+
+suspenderexamen, id_aspirante, suspenderParcial, suspenderTotal, suspenderSegundaFase {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
+}
+
+
+quintodanysuperior, kata, coloqio {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
+}
+
+hasta3dan, tecnicas, kata, kumite, campeonatos {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
+}
+
+
+cinturonnegro, tecnica_Directa, tecnica_Circulares, tecnica_Pierna, teoria, kata, kumite {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
+}
+
+
+cinturonNegroPrimerDan {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
+}
+
+
+
+cinturonNegroSegundoDan {
     background-color: white;
     border: black 1px solid;
     display: table-cell;
