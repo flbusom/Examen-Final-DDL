@@ -1,9 +1,16 @@
 examen {
     background-color: #DDFFFA;
+    text-align: center;
+    margin-left: 2%;
 }
 
 
-resultados {
+
+resultados::before{
+    content:"Resultados"
+    }
+
+resultados, id_aspirante {
     background-color: white;
     border: black 1px solid;
     display: table-cell;
@@ -12,9 +19,16 @@ resultados {
 }
 
 
-aspirate, id_aspirante, nombre, apellidos, DNI, telefono, direccion, fechanacimiento, Dan, cinturon, fecha_ingreso_Dan, 
+
+
+
+aspirante::before{
+    content:"Aspirantes"
+    }
+
+aspirante, id_aspirante, nombre, apellidos, DNI, telefono, direccion, fechanacimiento, Dan, cinturon, fecha_ingreso_Dan, 
 fotoAspirante, tiempo_Dan_Anterior, fotoDNI, fotoCarnetGrados{
-    background-color: #F6FEAC;
+    background-color: white;
     border: black 1px solid;
     display: table-cell;
     padding: 10px;
@@ -23,6 +37,11 @@ fotoAspirante, tiempo_Dan_Anterior, fotoDNI, fotoCarnetGrados{
 }
 
 
+
+
+meritos::before{
+    content:"Meritos"
+    }
 
 meritos, id_aspirante, edad_aspirante, licenciaActualizada, trabajoEscrito {
     background-color: white;
@@ -34,13 +53,11 @@ meritos, id_aspirante, edad_aspirante, licenciaActualizada, trabajoEscrito {
 }
 
 
-jueces, id_aspirante, nombre, apellidos, diplomaJuez {
-    background-color: white;
-    border: black 1px solid;
-    display: table-cell;
-    padding: 10px;
-    text-align: center;
-}
+
+
+convalidacion_Grados::before{
+    content:"Convalidacion de los grados"
+    }
 
 convalidacion_Grados, id_aspirante {
     background-color: white;
@@ -49,6 +66,12 @@ convalidacion_Grados, id_aspirante {
     padding: 10px;
 }
 
+
+
+
+requisitosAspirantes::before{
+    content:"Requisitos para los apirantes"
+    }
 
 requisitosAspirantes, solicitudHasta3Dan, danySuperiorCurriculum {
     background-color: white;
@@ -59,6 +82,11 @@ requisitosAspirantes, solicitudHasta3Dan, danySuperiorCurriculum {
 
 
 
+
+dispensamedica::before{
+    content:"Dispensa medica"
+    }
+
 dispensamedica, id_aspirante {
     background-color: white;
     border: black 1px solid;
@@ -66,6 +94,29 @@ dispensamedica, id_aspirante {
     padding: 10px;
 }
 
+
+
+
+
+jueces::before{
+    content:"Jueces"
+    }
+
+jueces, id_aspirante, nombre, apellidos, diplomaJuez {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+criterio_Valoracion::before{
+    content:"Criterio valoracion"
+    }
 
 criterio_Valoracion, indumentaria, aseoPersonal, ejecucionTecnica, valores, respuestas {
     background-color: white;
@@ -75,6 +126,12 @@ criterio_Valoracion, indumentaria, aseoPersonal, ejecucionTecnica, valores, resp
 }
 
 
+
+
+tribunal::before{
+    content:"Tribunal"
+    }
+
 tribunal, numerojueces, calificacion_final {
     background-color: white;
     border: black 1px solid;
@@ -83,12 +140,25 @@ tribunal, numerojueces, calificacion_final {
 }
 
 
+
+
+abonarcuota::before{
+    content:"Aboanr cuota"
+    }
+
 abonarcuota, id_aspirante {
     background-color: white;
     border: black 1px solid;
     display: table-cell;
     padding: 10px;
 }
+
+
+
+
+suspenderexamen::before{
+    content:"Suspender examen"
+    }
 
 suspenderexamen, id_aspirante, suspenderParcial, suspenderTotal, suspenderSegundaFase {
     background-color: white;
@@ -98,12 +168,23 @@ suspenderexamen, id_aspirante, suspenderParcial, suspenderTotal, suspenderSegund
 }
 
 
+
+quintodanysuperior::before{
+    content:"Quinto Dan y Superior"
+    }
+
 quintodanysuperior, kata, coloqio {
     background-color: white;
     border: black 1px solid;
     display: table-cell;
     padding: 10px;
 }
+
+
+
+hasta3dan::before{
+    content:"Hasta 3 Dan"
+    }
 
 hasta3dan, tecnicas, kata, kumite, campeonatos {
     background-color: white;
@@ -113,12 +194,21 @@ hasta3dan, tecnicas, kata, kumite, campeonatos {
 }
 
 
+
+
+cinturonnegro::before{
+    content:"Cinturon negro"
+    }
+
 cinturonnegro, tecnica_Directa, tecnica_Circulares, tecnica_Pierna, teoria, kata, kumite {
     background-color: white;
     border: black 1px solid;
     display: table-cell;
     padding: 10px;
 }
+
+
+
 
 
 cinturonNegroPrimerDan {

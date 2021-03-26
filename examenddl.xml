@@ -132,7 +132,7 @@
     <cinturonnegro>
         <tecnica_Directa>seryuto</tecnica_Directa>
         <tecnica_Circulares>kakiwake</tecnica_Circulares>
-        <tecnica_Pierna></tecnica_Pierna>
+        <tecnica_Pierna>KAKATO GERI</tecnica_Pierna>
         <teoria>si</teoria>
         <kata>pareja</kata>
         <kumite>combate</kumite>
@@ -144,8 +144,8 @@
     <cinturonNegroPrimerDan>
         <tecnica_Directa>seryuto</tecnica_Directa>
         <tecnica_Pierna>kakiwake</tecnica_Pierna>
-        <tecnica_DirectaIndirecta></tecnica_DirectaIndirecta>
-        <tecnica_Combinada></tecnica_Combinada>
+        <tecnica_DirectaIndirecta>HIZA</tecnica_DirectaIndirecta>
+        <tecnica_Combinada>FUMIKOMI</tecnica_Combinada>
         <teoria></teoria>
         <kata></kata>
         <kumite></kumite>
