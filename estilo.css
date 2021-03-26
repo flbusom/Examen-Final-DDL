@@ -210,8 +210,12 @@ cinturonnegro, tecnica_Directa, tecnica_Circulares, tecnica_Pierna, teoria, kata
 
 
 
+cinturonNegroPrimerDan::before{
+    content:"Cinturon negro 1r Dan"
+    }
 
-cinturonNegroPrimerDan {
+cinturonNegroPrimerDan, tecnica_Directa, tecnica_Pierna, tecnica_DirectaIndirecta, tecnica_Combinada, 
+teoria, kata, kumite, aplicacion_Tecnica  {
     background-color: white;
     border: black 1px solid;
     display: table-cell;
@@ -220,7 +224,45 @@ cinturonNegroPrimerDan {
 
 
 
-cinturonNegroSegundoDan {
+
+
+cinturonNegroSegundoDan::before{
+    content:"Cinturon negro 2o Dan"
+    }
+
+cinturonNegroSegundoDan, tecnica_Directa, tecnica_DirectaIndirecta, tecnica_Pierna, tecnica_Combinada, teoria,
+kata, kumite, campeonatos, tecnicas, aplicacion_Tecnica, demo_libre {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
+}
+
+
+
+
+
+cinturonNegroTercerDan::before{
+    content:"Cinturon negro 3o Dan"
+    }
+
+cinturonNegroTercerDan, variaciones_Tecnica, teoria, kata, kumite, campeonatos, tecnicas, aplicaciones, 
+aplicacion_Tecnica, demo_libre {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
+}
+
+
+
+
+
+cinturonNegroCuartoDan::before{
+    content:"Cinturon negro 4o Dan"
+    }
+
+cinturonNegroCuartoDan, kata, kumite, coloquio, aplicacion_Tecnica, demo_libre {
     background-color: white;
     border: black 1px solid;
     display: table-cell;
